@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	box-sizing: border-box;
+}
+.body{
+	background: url("../img/76343778_p0.jpg") no-repeat;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background-size: 100% 100%;
+	position: absolute;
+}
+.body_total{
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+}
+.login_total{
+	width: 300px;
+	height: 260px;
+	padding: 15px;
+	position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto ;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 10px;
+}
+.login_bot_total{
+	width: 100%;
+	border: 1px solid #000000;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	padding: 3px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.login_bot_total>input{
+	height: 30px;
+	border: 0px;
+	width: 100%;
+	background-color: rgba(255,255,255,0);
+}
+input::-webkit-input-placeholder{
+	color: rgb(65, 65, 65);
+}
+#card li{
+	height: 100%;
+	display: none;
+}
+#card li.active{
+	display: block;
+}
+.button{
+	color: white;
+	width: 130px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: rgb(0, 0, 0 ,0.6);
+	border: none;
+	cursor: pointer;
+}
+.button:hover{
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.6) inset;
+}
+.font{
+	font-family: "微软雅黑";
+}
