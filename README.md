@@ -1,4 +1,5 @@
 #1751200231 钟泽豪
+
 作业1                      
 1.   共阴极：80H   
       共阳极：7FH
@@ -10,6 +11,7 @@
                    缺点：需要编程进行扫描。
 
 作业2
+
 #include<reg52.h>
 #define uint unsigned int
 #define uchar unsigned char
