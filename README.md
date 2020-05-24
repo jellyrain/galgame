@@ -6,13 +6,11 @@
 2. 静态显示：显示的数据是分开送到每一位LED上的。
                    优点：显示亮度很高。
                    缺点：但口线占用较多。
-    
     动态显示：数据是同时送到每一个LED上。
                    优点：口线占用较少。
                    缺点：需要编程进行扫描。
 
 作业2
-
 #include<reg52.h>
 #define uint unsigned int
 #define uchar unsigned char
